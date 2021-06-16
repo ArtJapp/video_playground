@@ -1,0 +1,24 @@
+ext {
+    versions = [
+            coreKtx: "1.3.2",
+            appcompat: "1.2.0",
+            material: "1.3.0",
+            constraintlayout: "2.0.4",
+            exoPlayer: "2.14.1",
+    ]
+
+    androidX = [
+            coreKtx: "androidx.core:core-ktx:${versions.coreKtx}",
+            appcompat: "androidx.appcompat:appcompat:${versions.appcompat}",
+            material: "com.google.android.material:material:${versions.material}",
+            constraintlayout: "androidx.constraintlayout:constraintlayout:${versions.constraintlayout}",
+    ]
+
+    exoPlayer = [
+        player: "com.google.android.exoplayer:exoplayer:${versions.exoPlayer}",
+        core: "com.google.android.exoplayer:exoplayer-core:${versions.exoPlayer}",
+        dash: "com.google.android.exoplayer:exoplayer-dash:${versions.exoPlayer}",
+        hls: "com.google.android.exoplayer:exoplayer-hls:${versions.exoPlayer}",
+        ui: "com.google.android.exoplayer:exoplayer-ui:${versions.exoPlayer}"
+    ]
+}
