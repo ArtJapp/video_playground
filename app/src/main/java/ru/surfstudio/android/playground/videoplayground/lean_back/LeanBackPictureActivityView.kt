@@ -9,6 +9,9 @@ import android.view.animation.RotateAnimation
 import androidx.core.view.isVisible
 import ru.surfstudio.android.playground.videoplayground.databinding.ActivityLeanBackBinding
 
+/**
+ * Тестовая активити для проверки смены ориентации
+ */
 class LeanBackPictureActivityView : AppCompatActivity() {
 
     private val binding: ActivityLeanBackBinding by lazy {

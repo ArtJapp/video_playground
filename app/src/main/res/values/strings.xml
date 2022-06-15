@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Video Playground</string>
+    <string name="track_selection_title">Video Quality</string>
 </resources>

@@ -44,10 +44,12 @@ dependencies {
     implementation androidX.material
     implementation androidX.constraintlayout
 
+    implementation exoPlayer.player
     implementation exoPlayer.core
     implementation exoPlayer.dash
     implementation exoPlayer.hls
     implementation exoPlayer.ui
+    implementation exoPlayer.mediasession
 
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
